@@ -46,8 +46,7 @@ from datetime import datetime
 # bot and admin chat id
 
 bot = telebot.TeleBot("238633280:AAGxDljlXQjScSH9mlkyVWRWRe09DszGZ70")
-adminid = bot.get_me().id
-botid = @JackTelegramRebot
+adminid = bot.get_me(147237496).id
 
 comic = comics
 uptime = datetime.now()
